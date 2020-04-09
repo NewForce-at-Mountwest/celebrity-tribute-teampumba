@@ -3,3 +3,17 @@ body {
     font-family: IM Fell French Canon SC;
 }
 
+footer{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+.caption-color{
+    color: black;
+    font-weight: bold;
+}
+.header-color{
+    font-weight: bold;
+}
