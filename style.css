@@ -1,7 +1,7 @@
 
 .home {
     Width: 100vw;
-    height: 100vh;
+    height: 75vh;
     text-align: center;
     font-family: monospace;
     font-size: 2em;
@@ -22,7 +22,7 @@
 body{
     background-color: orangered;
 
-font-family: sans-serif;
+font-family: "IM Fell French Canon" SC;
 }
 p {
 font-size: 1.2em;
@@ -69,6 +69,7 @@ li {
     width: 100vw;
     border: 1px solid black;
     display: flex;
+    
 }
 
 .family-member{
@@ -85,4 +86,9 @@ li {
 
 .family-member{
     display: flex;
+    color: navy;
+}
+
+.quote/gif{
+    color: navy;
 }
