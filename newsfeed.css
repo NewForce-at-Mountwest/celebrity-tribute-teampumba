@@ -28,7 +28,7 @@ a{
 }
 
 .card{
-    background-color: #553529;
+    background-color: black;
 }
 .text-color {
     color: white;
@@ -49,3 +49,10 @@ a{
 }
 
 
+
+#accordion2{
+    background-color: #553529;
+}
+#accordion3{
+    background-color: #ff4607;
+}
