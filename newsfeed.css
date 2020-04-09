@@ -1,5 +1,5 @@
 body {
-    background-color: #c73600;
+    background-color: #ff632e;
     font-family: IM Fell French Canon SC;
 }
 
@@ -16,4 +16,23 @@ nav{
 }
 .header-color{
     font-weight: bold;
+}
+
+a{
+    color: black;
+}
+
+.collapse{
+    background-color: #aa5639;
+    color: white;
+}
+
+.card{
+    background-color: #553529;
+}
+.text-color {
+    color: white;
+}
+.otherNews{
+    margin-top: 2em;
 }
