@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://lh3.googleusercontent.com/proxy/AT3vaLLOZD_H5Vh965CGfNY7f4wMwKHlogI5HAwNsDxHP2oMA2HALjmvk6la3WNa2ObqpJacxyObv9hLC9ghJ03Quh0l28lROl26hBZkPQg5HU_k6l8EEyAMCQ");
+    background-size: 100%;
+   font-family: 'IM Fell French Canon SC', serif;
+}
+
+.main-navbar{
+   display: flexbox;
+   text-align: left; 
+   justify-content: space-around;
+   margin: 1em;
+   font-size: 1.5rem;
+  
+}
+
+a{
+    padding: 1rem;
+    color: orangered;
+}
+
+a:hover.main-navbar{
+    color: rgb(114, 72, 17);
+}
