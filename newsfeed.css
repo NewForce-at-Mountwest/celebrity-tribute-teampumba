@@ -39,7 +39,13 @@ a{
 }
 
 .upcomingEvents{
-    display: flex;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.img-mar{
+    padding-top: 1em;
 }
 
 
