@@ -1,0 +1,9 @@
+body {
+    font-family: 'IM Fell French Canon SC', serif;
+    background-color: orangered;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
