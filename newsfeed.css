@@ -48,7 +48,9 @@ a{
     padding-top: 1em;
 }
 
-
+.accordion1 {
+    background-color: black;
+}
 
 #accordion2{
     background-color: #553529;
