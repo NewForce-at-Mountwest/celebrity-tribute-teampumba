@@ -1,9 +1,29 @@
 body {
     font-family: 'IM Fell French Canon SC', serif;
     background-color: orangered;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fdisneyexaminer.com%2Fwp-content%2Fuploads%2F2016%2F09%2Flion-king-circle-of-life-sunrise.png&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
 }
 
 nav{
     display: flex;
     justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.skills{
+    text-align: center;
+}
+
+.location-history{
+    text-align: center;
 }
