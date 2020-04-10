@@ -58,3 +58,6 @@ a{
 #accordion3{
     background-color: #ff4607;
 }
+.checked {
+    color: orange;
+  }
