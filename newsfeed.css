@@ -1,0 +1,67 @@
+body {
+    background-color: #ff632e;
+    font-family:  'IM Fell French Canon SC', serif;
+}
+
+footer{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    color: black;
+}
+.carousel-opacity{
+    background: rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    
+}
+.header-color{
+    font-weight: bold;
+    background: rgb(0, 0, 0, 0.5)
+
+}
+
+a{
+    color: black;
+}
+
+.collapse{
+    background-color: #aa5639;
+    color: white;
+}
+
+.card{
+    background-color:black;
+}
+.text-color {
+    color: white;
+}
+.otherNews{
+    margin-top: 2em;
+    color: white;
+}
+
+.upcomingEvents{
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.img-mar{
+    padding-top: 1em;
+}
+
+.accordion1 {
+    background-color: black;
+}
+
+#accordion2{
+    background-color: #553529;
+}
+#accordion3{
+    background-color: #ff4607;
+}
+.checked {
+    color: orange;
+  }
