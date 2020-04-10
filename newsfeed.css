@@ -9,6 +9,7 @@ footer{
 
 nav{
     text-align: center;
+    color: black;
 }
 .carousel-opacity{
     background: rgb(0, 0, 0, 0.5);
@@ -21,9 +22,9 @@ nav{
 
 }
 
-/* a{
+a{
     color: black;
-} */
+}
 
 .collapse{
     background-color: #aa5639;
