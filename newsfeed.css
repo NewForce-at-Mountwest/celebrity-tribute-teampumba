@@ -10,9 +10,10 @@ footer{
 nav{
     text-align: center;
 }
-.caption-color{
-    background: rgb(0, 0, 0, 0.5)
+.carousel-opacity{
+    background: rgb(0, 0, 0, 0.5);
     font-weight: bold;
+    
 }
 .header-color{
     font-weight: bold;
