@@ -11,16 +11,18 @@ nav{
     text-align: center;
 }
 .caption-color{
-    color: black;
+    background: rgb(0, 0, 0, 0.5)
     font-weight: bold;
 }
 .header-color{
     font-weight: bold;
+    background: rgb(0, 0, 0, 0.5)
+
 }
 
-a{
+/* a{
     color: black;
-}
+} */
 
 .collapse{
     background-color: #aa5639;
