@@ -27,3 +27,7 @@ h2{
 .location-history{
     text-align: center;
 }
+
+.dropdownFlex{
+    flex-flow: row;
+}
