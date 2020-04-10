@@ -21,30 +21,37 @@
     List of awards. -->
 
     <!-- The navigation bar -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="careers.html">Career</a>
-        <a href="pumbaa.html">Personal</a>
-        <a href="newsfeed.html">News</a>
-        <a href="executive_summary">Executive Summary</a>
-    </nav>
-
-
-    <h1>Career History</h1>
-   
+  
+    <ul class="nav justify-content-center nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="executive_summary.html">Executive Summary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pumbaa.html">Personal</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="careers.html">Career</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="newsfeed.html">News Feed</a>
+      </li>
+    </ul>
     <!-- A short intro to the artist -->
-    <section>
+    <section class="container">
+      <div class="m-5 p-5">
         <h2>Introduction</h2>
         <div>
             Pumbaa Smith is a gluttonous warthog from the African savanna, an area of tropical grasslands that reaches into Congo, South Africa, Nigeria, Liberia, Uganda, and Kenya, and covers over 5 million square miles.  He enjoys eating, the freedom to roam, hot tubs, palling around with his buddy Timon, singing, lounging, and sleeping.
         </div>
+      </div>
     </section>
 
 
     <!-- Three seperate dropdown lists for Pumbaa's skills, location history, and awards -->
+    <!-- Skills List -->
     <section class="container">
-      <div class="row">
-        <div class="list-group dropdown">
+      <div class="row ">
+        <div class="list-group dropdown m-auto">
             <ul>
               <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Pumbaa's Skills      
@@ -58,16 +65,8 @@
             </ul>
         </div>
 
-<!-- List of places the artist has lived -->
-     <!-- <section class="location-history">
-         <h2>Location History</h2>
-         <p>Pride Lands 1991 - 1994 </p>
-         <p>Pride Rock 1994 - 2008</p>
-         <p>Washington D.C. 2008 - 2016</p>
-         <p>Pride Rock 2016 - Present</p>
-     </section> -->
-
-        <div class="list-group dropdown">
+    <!-- Location History List -->
+        <div class="list-group dropdown m-auto">
           <ul>
             <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
              Location History     
@@ -79,14 +78,33 @@
               <li class="list-group-item list-group-item-success dropdown-item">Pride Rock 2016 - Present</li>
           </ul>
         </div>
-       </div>
-      </section>
-    <!-- </section> -->
+
+    <!-- Awards List -->
+    <div class="list-group dropdown m-auto">
+      <ul>
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pumbaa's Awards     
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li class="list-group-item list-group-item-primary dropdown-item">The Order of the Companions of O. R. Tambo</li>
+          <li class="list-group-item list-group-item-secondary dropdown-item">Time Magazine Person of the Year</li>
+          <li class="list-group-item list-group-item-danger dropdown-item">Key to Pride Rock</li>
+          <li class="list-group-item list-group-item-success dropdown-item">African Achievers Award</li>
+      </ul>
+    </div>
+   </div>
+  </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
     <!-- Bootstrap carousel of published works -->
-    <section>
+    <section class="container">
         <h2>Published Works</h2>
-        <div id="publishCarousel" class="carousel slide container" data-ride="carousel">
+        <div id="publishCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#publishCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#publishCarousel" data-slide-to="1"></li>
@@ -127,18 +145,22 @@
           </div>
     </section>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
      
-     <!-- Collaborators -->
+     <!-- Bootstrap carousel to display collaborator images -->
      <section>
      <h2>Collaborators</h2>
-
-     <!-- Bootstrap carousel to display collaborator images -->
      <div id="carouselExampleCaptions" class="carousel slide container" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -162,6 +184,13 @@
               <p>Pumbaa's Uncle.</p>
             </div>
           </div>
+          <div class="carousel-item">
+            <img src="obama-pumbaa.png" height="600" width="585" class="d-block w-100" alt="President Obama">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>President Obama</h5>
+              <p>President Obama in discussion with Ambassador Pumbaa about putting a missle defense system in the Pride Lands</p>
+            </div>
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -173,6 +202,11 @@
         </a>
       </div>
     </section>
+    
+    <br>
+    <br>
+    <br>
+
 
       <!-- Javascript links for bootstrap -->
      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
