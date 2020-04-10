@@ -1,3 +1,26 @@
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/351a8f31-e3d3-4763-a45c-5106d9a6e02e/d3iiuxn-1fb37fc8-0b09-4713-8495-1b3abd5578bd.jpg/v1/fill/w_1147,h_697,q_70,strp/the_lion_king___golden_curtain_by_darksilverflame_d3iiuxn-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODgxIiwicGF0aCI6IlwvZlwvMzUxYThmMzEtZTNkMy00NzYzLWE0NWMtNTEwNmQ5YTZlMDJlXC9kM2lpdXhuLTFmYjM3ZmM4LTBiMDktNDcxMy04NDk1LTFiM2FiZDU1NzhiZC5qcGciLCJ3aWR0aCI6Ijw9MTQ1MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.P88tjP9LScYqIw8n2v1TKBRv79Hy4t4k7LDmop7Ii9Q");
+    background-size: 100%;
+   font-family: 'IM Fell French Canon SC', serif;
+}
+
+.main-navbar{
+   display: flexbox;
+   text-align: left; 
+   justify-content: space-around;
+   margin: 1em;
+   font-size: 1.5rem;
+  
+}
+
+a{
+    padding: 1rem;
+    color: orangered;
+}
+
+a:hover.main-navbar{
+    color: rgb(114, 72, 17);
+}
 
 .home {
     Width: 100vw;
